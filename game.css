@@ -1,0 +1,120 @@
+*{ 
+    margin: 0;
+    padding: 0;
+} 
+
+html{ 
+
+    background-color: rgb(2, 5, 24);
+}
+
+
+#game { 
+
+    transform: translate(50%,-50%);
+    position: absolute;
+    top:50%;
+    right: 50%;
+    height:70%;
+    width: 60%;
+
+    border:solid 5px rgb(0, 38, 255);
+    background-image:linear-gradient(45deg,rgb(77, 164, 185),rgb(250, 238, 200));
+    box-shadow: 3px 3px 150px rgb(25, 0, 255);
+
+}
+
+
+
+
+#player {
+
+    transform: translate(50%,-50%);
+    position: absolute;
+    top:60%;
+    right: 85%;
+    height:55px;
+    width: 30px;
+
+    background-color: rgba(7, 7, 7, 0.733);
+    border-radius: 40px;
+}
+
+
+.jump {
+    animation: playerjump 800ms infinite;
+}
+
+
+@keyframes playerjump { 
+
+    0%{top: 60%;}
+    50%{top: 35%;}
+    100%{top: 60%;}  
+}
+
+
+
+#cenary { 
+
+    transform: translate(50%,-50%);
+    position: absolute;
+    top:70%;
+    right: 50%;
+    height: 85px;
+    width: 100%;
+
+
+    background-color:green;
+}
+
+
+
+#cenary2 { 
+
+    transform: translate(50%,-50%);
+    position: absolute;
+    top:593px;
+    right: 50%;
+    height: 190px;
+    width: 100%;
+
+    background-color:rgb(65, 48, 36)
+}
+
+
+
+
+#obstacle { 
+
+    transform: translate(50%,-50%);
+    position:relative;
+    top:58%;
+    left: 1047px;
+    height: 150px;
+    width:70px ;    
+
+    background-color: green;
+
+    animation: obstacle 1s infinite linear;
+}
+
+
+@keyframes obstacle { 
+    0%{left: 1047px;}
+    100%{left: -40px;}
+
+}
+
+
+#retry {
+
+    transform: translate(50%,-50%);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+
+    font-size: larger;
+    color: rgb(0, 38, 255);
+
+}

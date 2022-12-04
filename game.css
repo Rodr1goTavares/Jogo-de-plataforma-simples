@@ -18,9 +18,9 @@ html{
     height:70%;
     width: 60%;
 
-    border:solid 5px rgb(0, 38, 255);
+    border:solid 5px rgb(72, 255, 0);
     background-image:linear-gradient(45deg,rgb(77, 164, 185),rgb(250, 238, 200));
-    box-shadow: 3px 3px 150px rgb(25, 0, 255);
+    box-shadow: 3px 3px 150px rgb(51, 255, 0);
 
 }
 

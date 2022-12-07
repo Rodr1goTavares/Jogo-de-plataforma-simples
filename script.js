@@ -1,7 +1,7 @@
 
 
-let player = document.getElementById('player');
-let obstacle = document.getElementById('obstacle');
+const player = document.getElementById('player');
+const obstacle = document.getElementById('obstacle');
 
 
 //pulo
